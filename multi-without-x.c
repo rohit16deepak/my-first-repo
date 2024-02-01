@@ -1,6 +1,6 @@
 #include<stdio.h>
 void main()
-{
+{// multiplication without using * operator
     int a,b,i,sum;
     printf("enter the value of a and b\n");
     scanf("%d %d",&a,&b);

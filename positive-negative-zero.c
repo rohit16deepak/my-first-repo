@@ -1,6 +1,6 @@
 #include<stdio.h>
 void main()
-{
+{// program to check positive negative zero case of number
     int a;
     printf("enter any number\n");
     scanf("%d",&a);
