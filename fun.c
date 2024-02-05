@@ -1,15 +1,19 @@
 #include<stdio.h>
-void sum(int a,int b);
+int sum(int a,int b);
 
-
-void sum(int a,int b)
+int main()
 {
-    int sum;
+    int s;
+    sum(4,5);
+    s=sum(4,5);
+    printf("sum=%d",s);
+
+
+}
+
+int sum(int a, int b)
+{
+    int sum=0;
     sum=a+b;
     return sum;
-}
-void main()
-{
-    int a,b;
-    sum(a,b);
-}
+} 
